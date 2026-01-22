@@ -9,7 +9,10 @@ if system("clear") != 0: system("cls")
 print("\nEjercicio 1: Imprimir mensajes")
 print("Escribe un programa que imprima tu nombre y tu ciudad en líneas separadas.")
 
-### Completa aquí
+nombre =("Jhoan")
+ciudad =("Pasto")
+
+print(nombre + "\n" + ciudad)
 
 print("--------------")
 
@@ -21,7 +24,11 @@ c = "Hola mundo"
 d = True
 e = None
 
-### Completa aquí
+### Completa aprint(type(a))
+print(type(b))
+print(type("c"))
+print(type(True))
+print(type(e))
 
 print("--------------")
 
@@ -29,7 +36,12 @@ print("\nEjercicio 3: Casting de tipos")
 print("Convierte la cadena \"12345\" a un entero y luego a un float.")
 print("Convierte el float 3.99 a un entero. ¿Qué ocurre?")
 
-### Completa aquí
+c = 12345
+print(int(c))
+print(float(c))
+
+print(int(3.99))
+Da como resultado 3
 
 print("--------------")
 
